@@ -1,18 +1,18 @@
 body {
-    background-color: #7a0000;
-    color: rgb(255, 255, 255);
-    font-family: "Arimo", sans-serif;
+    background-color: #b11212;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
-    margin: 0;
+    height: 1000px;
+    margin: 1000;
 }
 
 button {
-    background-color: #ffffff;
+    background-color: #090c05;
     color: white;
-    font-family: "Arimo", sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 .passo {
@@ -25,9 +25,9 @@ button {
 
 main {
     text-align: center;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 img {
-    max-width: 90%;
+    max-width: 70%;
 }

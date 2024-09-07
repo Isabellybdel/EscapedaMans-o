@@ -6,128 +6,124 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <title>Escape da Mansão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
 </head>
 <body>
-    
-<main> 
-    <div class="passo ativo" id="passo-0">
-        <img src ="cenario-passo0.jpg"alt="">
-        <p> Em busca de um novo emprego, você acaba sendo chamado para uma entrevista em uma mansão, um pouco longe da sua cidade. 
-</p>
-        <button class="btn-proximo"data-proximo=1>Prosseguir</button>
-    </div>
-    <div class="passo" id="passo-1">
-    <p> Chegando lá o portão estava fechado, e a casa aparentava estar vazia. O muro se estendia como se não tivesse fim, não havia outra entrada. Você percebe que o muro era rodeado de trepadeiras. 
-</p>
-     <p> Haviam duas possibilidades, deixar a casa ou entrar utilizando as trepadeiras do muro.
-     </p>   
-<button class="btn-proximo"data-proximo=2>Escalar o muro</button>
-<button class="btn-proximo"data-proximo=3>Deixar o local</button>
-</div>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Em busca de um novo emprego, você acaba sendo chamado para uma entrevista em uma mansão, um pouco longe da sua cidade</p>
+            <button class="btn-proximo" data-proximo="1">Prosseguir</button>
+            
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="">
+            <p>Chegando lá o portão estava fechado, e a casa aparentava estar vazia. O muro se estendia como se não tivesse fim, não havia outra entrada. Você percebe que o muro era rodeado de trepadeiras.</p>
+            <p>Haviam duas possibilidades, deixar a casa ou entrar utilizando as trepadeiras do muro.</p>
+            <button class="btn-proximo" data-proximo="2">Escalar o muro</button>
+            <button class="btn-proximo" data-proximo="3">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sua ambição de entrar em um lugar abandonado falou mais alto e você caiu de cabeça!</p>
+            <button class="btn-proximo" data-proximo="4">Prosseguir</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você teve o bom senso de não entrar na mansão e procurar outro emprego.</p>
+        </div>
 
-<div class="passo" id="passo-2"
-<p></p>
-<p>Sua ambição de entrar em um lugar abandonado falou mais alto e você caiu de cabeça!</p>
-<button class="btn-proximo"data-proximo=4>Prosseguir</button>
-    </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="">
+            <p> Ápos a queda você desmaiou, quando acordou percebeu que estava dentro da mansão</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o quarto</button>
+        </div>
 
-<div class="passo" id="passo-3"
-<p></p>
-<p>Você teve o bom senso de não entrar na mansão e procurar outro emprego.</p>
-<p>Final 1/4</p>
-</div>
+        <div class="passo" id="passo-5">
+            <p>Você percebe que a porta está trancada, e sem sucesso não consegue abri-lá. Porém há uma janela, que leva a uma sacada, o local parece dar acesso ao telhado.</p>
+            <p>Só te resta duas opções:</p>
+            <button class="btn-proximo" data-proximo="6">Tentar chamar alguém e esperar.</button>
+            <button class="btn-proximo" data-proximo="7">Sair pela janela e tentar subir no telhado.</button>
+        </div>
 
-     <div class="passo" id="passo-4"
-     <p> Ápos a queda você desmaiou, quando acordou percebeu que estava dentro da mansão.</p>
-     <button class="btn-proximo"data-proximo=5>Explorar o quarto</button>
-     </div>
-     <div class="passo" id="passo-5">
-        <p> Você percebe que a porta está trancada, e sem sucesso não consegue abri-lá. Porém há uma janela, que leva a uma sacada, o local parece dar acesso ao telhado.</p>
-        <p>Só te resta duas opções. </p>
-        <button class="btn-proximo"data-proximo=6>Tentar chamar alguém e esperar</button>
-        <button class="btn-proximo"data-proximo=7>Sair pela janela e tentar subir no telhado</button>
-<P></P>
-        <div class="passo" id="passo-6"
-        <p>Você bateu na porta à espera de alguém, sem resposta começou a gritar por ajuda. Sem sucesso resolveu tentar a sorte com a sacada. E incrivelmente caiu pela sua segunda vez! Por sorte conseguiu chegar no parapeito de uma outra sacada do andar debaixo.</p>
-        <button class="btn-proximo"data-proximo=8> Prosseguir </button>
-    </div>
-        <p></p>
-        <div class="passo" id="passo-7"
-        <p>Você de modo impaciente tentou subir no telhado, escorregou e caiu pela segunda vez! Por sorte conseguiu chegar no parapeito de uma outra sacada do andar debaixo.</p>
-        <button class="btn-proximo"data-proximo=8> Prosseguir </button>
+        <div class="passo" id="passo-6">
+            <p>Você bateu na porta à espera de alguém, sem resposta começou a gritar por ajuda. Sem sucesso resolveu tentar a sorte com a sacada. E incrivelmente caiu pela sua segunda vez!.</p>
+            <button class="btn-proximo" data-proximo="8">Prosseguir</button>
+        </div>
 
-    </div>
-         <p></p>
-     <div class="passo" id="passo-8"
-        <p>Agora na sacada, você resolve tentar abrir a porta logo a sua frente. Com sucesso entra dentro do cômodo, e percebe que está em um pequeno escritório. Há uma porta, você verifica se está aberta, ela abre, porém há uma estante suspeita no local.</p>
-        <p>Você pode escolher entre explorar a estante ou sair dali o mais rápido possível.</p>
-        <button class="btn-proximo"data-proximo=9> Verificar a estante de livros </button>
-        <button class="btn-proximo"data-proximo=10> Sair dali o mais rápido possível </button>
-    </div>
-         <p></p>
-    <div class="passo" id="passo-9"
-         <p> Maliciosamente, você em busca de achar algo de valor, encontra um cofre secreto! Vasculhando a escrivaninha ao lado, por muita sorte, encontra a senha do cofre! Digitando a senha você percebe que ele não abriu, e com mais algumas tentativas...</p>
-         <button class="btn-proximo"data-proximo=11> Prosseguir </button>
-     </div>
-     <p></p>
-     <div class="passo-10"
-     <p>Saindo do cômodo você segue em direção as escadas. No andar debaixo você da de cara com uma senhora.</p>
-     <p> Em silêncio vocês trocam olhares desconfiados.</p>
-     <p>Você pode...</p>
-        <button class="btn-proximo"data-proximo=12> Atacar a senhora </button>
-        <button class="btn-proximo"data-proximo=13> Esperar </button>
-     </div>
-     <p></p>
-    <div class="passo-11"
-    <p>PII PII PII! O alarme de segurança dispara, e a polícia foi acionada!</p>
-       <p>Os policiais te pegaram e você foi preso por invasão de propriedade e tentativa de furto!</p>
-       <p>Convenhamos, pular o muro de uma mansão não foi uma das ideias mais inteligentes desse mundo.</p>
-       <p>Final 2/4</p>
-    </div>
-    <div class="passo-12"
-       <p>Ágilmente você tenta agredir a senhora!</p>
-       <p>Só que o que ninguém esperava era que, ela lutava artes marciais! E com um belo chute você caiu duro no chão.</p>
-       <p>Quando você acordou, sentia dores fortes de cabeça, e percebeu que estava preso no xilindró!</p>
-       <p>Realmente aquela senhora era bem mais forte do que você!</p>
-       <p>Final 3/4</p>
-    </div>
-    <p></p>
-<div class="passo-13"
-       <p>A senhora te encara e te convida amigavelmente para tomar chá. Você sem hesitar aceita</p>
-       <p>Olhando ao redor há uma porta levando direto ao quintal, e essa era sua chance! Assim que ela saiu para trazer seu chá, você resolve...</p>
-       <button class="btn-proximo"data-proximo=14> Esperar o chá </button>
-       <button class="btn-proximo"data-proximo=15> Cair fora dalí! </button>
-</div>
-<p></p>
-    </div>
-<div class="passo-14" 
-     <p>Esperando um pouco, a doce senhora lhe entrega o chá e vocês dois trocam uma conversa. Suas palpebras cada vez mais trazem o sinal de que você está com sono.</p>
-    <p>Logo mais você cai no sono. Quando acorda, está preso na cadeia! Aparentemente a bruxa velha te prendeu em um cômodo para chamar a polícia, e quando viu que você pulou do terceiro andar, já era tarde pois você já estava na frente dela.</p>
-    <p>Chances você teve muitas, porém não foi dessa vez!</p>
-    <p>Final 3/4 </p>
-</div>
-<p></p>
-<div class="passo-15"
-    <p>Você correu com tudo e derrubou a porta, conseguindo chegar até o jardim. Novamente pulou o muro, e dessa vez não se quebrou todo.</p>
-    <p>Finalmente em casa! Você se deita em seu sofá e resolve assistir televisão</p>
-    <p>Passando alguns canais você de relance vê a mesma senhora da mansão. Parando um pouco incrédulo, talvez não fosse a mulher. E para seu azar era ela, mesmo endereço, a mesma casa! Obviamente era sobre a sua frustante entrada na mansão.</p>
-    <p>A senhora relatou o ocorrido:</p>
-    <p>- A minha intenção era prender aquele homem no quarto e chamar a polícia, porém quando percebi, ele estava de pé já na sala.</p>
-    <p>- E qual foi sua reação?</p>
-    <p>- Esperar, já que eu não tinha nada a perder. Eu fasso judô! Então veio uma ideia, bancar uma de sonsa e oferecer chá.</p>
-    <p>- A senhora disse que funcionou, como foi isso?</p>
-    <p>- Sim incrivelmente ele era mais esperto do que pensei, pois quando fui pegar o chá com sonifero, já havia ligado para a polícia, e quando me virei, escutei um estrondo, então nem acreditei! O homem havia escapado derrubando a porta!</p>
-    <p>Após isso, morrendo de vergonha, você desligou a tv, e olhou o local de sua entrevista, quando percebeu já era tarde demais! Você além de ter se enganado, perdeu a entrevista e cometeu um crime.</p>
-    <p>Bem, agora você sabe que essa vida definitivamente, não é para você!</p>
-    <p>Final 4/4 o mais chato de ler com certeza </p>
+        <div class="passo" id="passo-7">
+            <p>Você de modo impaciente tentou subir no telhado, escorregou e caiu pela segunda vez! Por sorte conseguiu chegar no parapeito de uma outra sacada do andar debaixo.</p>
+            <button class="btn-proximo" data-proximo="8">Prosseguir</button>
+        </div>
 
-</div>
+        <div class="passo" id="passo-8">
+            <p>Agora na sacada, você resolve tentar abrir a porta logo a sua frente. Com sucesso entra dentro do cômodo, e percebe que está em um pequeno escritório. Há uma porta, você verifica se está aberta, ela abre, porém há uma estante suspeita no local.</p>
+            <p>Você pode escolher entre explorar a estante ou sair dali o mais rápido possível.</p>
+            <button class="btn-proximo" data-proximo="9">Verificar a estante de livros.</button>
+            <button class="btn-proximo" data-proximo="10">Sair o mais rápido possível.</button>
+        </div>
 
-</div>
+        <div class="passo" id="passo-9">
+            <p>Maliciosamente, você em busca de achar algo de valor, encontra um cofre secreto! Vasculhando a escrivaninha ao lado, por muita sorte, encontra a senha do cofre! Digitando a senha você percebe que ele não abriu, e com mais algumas tentativas...</p>
+            <button class="btn-proximo" data-proximo="11">Prosseguir</button>
+        </div>
 
-</main>
+        <div class="passo" id="passo-10">
+            <p>Saindo do cômodo você segue em direção as escadas. No andar debaixo você da de cara com uma senhora.</p>
+            <img src="img/cenario-passo10.PNG" alt="">
+            <p> Em silêncio vocês trocam olhares desconfiados.</p>
+            <p>Você pode...</p>
+            <button class="btn-proximo" data-proximo="12">Atacar a senhora.</button>
+            <button class="btn-proximo" data-proximo="13">Só esperar...</button>
+        </div>
 
+        <div class="passo" id="passo-11">
+            <p>PII PII PII! O alarme de segurança dispara, e a polícia foi acionada!</p>
+            <p>Os policiais te pegaram e você foi preso por invasão de propriedade e tentativa de furto!</p>
+            <p>Convenhamos, pular o muro de uma mansão não foi uma das ideias mais inteligentes desse mundo.</p>
+            <p>Final 2/4</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ágilmente você tenta agredir a senhora!</p>
+            <p>Só que o que ninguém esperava era que, ela lutava artes marciais! E com um belo chute você caiu duro no chão.</p>
+            <p>Quando você acordou, sentia dores fortes de cabeça, e percebeu que estava preso no xilindró!</p>
+            <p>Realmente aquela senhora era bem mais forte do que você!</p>
+            <p>Final 3/4</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>A senhora te encara e te convida amigavelmente para tomar chá. Você sem hesitar aceita.</p>
+            <p>Olhando ao redor há uma porta levando direto ao quintal, e essa era sua chance! Assim que ela saiu para trazer seu chá, você resolve...</p>
+            <button class="btn-proximo"data-proximo=14> Esperar o chá </button>
+            <button class="btn-proximo"data-proximo=15> Cair fora dalí! </button>
+        </div>
+        
+        <div class="passo" id="passo-14">
+            <p>Esperando um pouco, a doce senhora lhe entrega o chá e vocês dois trocam uma conversa. Suas palpebras cada vez mais trazem o sinal de que você está com sono.</p>
+            <p>Logo mais você cai no sono. Quando acorda, está preso na cadeia! Aparentemente a bruxa velha te prendeu em um cômodo para chamar a polícia, e quando viu que você pulou do terceiro andar, já era tarde pois você já estava na frente dela.</p>
+            <p>Chances você teve muitas, porém não foi dessa vez!</p>
+            <p>Final 3/4</p>   
+        </div>
+
+        <div class="passo" id="passo-15">
+                <P>Você correu com tudo e derrubou a porta, conseguindo chegar até o jardim. Novamente pulou o muro, e dessa vez não se quebrou todo.</p>
+                <p>Finalmente em casa! Você se deita em seu sofá e resolve assistir televisão</p>
+                <p>Passando alguns canais você de relance vê a mesma senhora da mansão. Parando um pouco incrédulo, talvez não fosse a mulher. E para seu azar era ela, mesmo endereço, a mesma casa! Obviamente era sobre a sua frustante entrada na mansão.</p>
+                <p>A senhora relatou o ocorrido:</p>
+                <p>- A minha intenção era prender aquele homem no quarto e chamar a polícia, porém quando percebi, ele estava de pé já na sala.</p>
+                <p>- E qual foi sua reação?</p>
+                <p>- Esperar, já que eu não tinha nada a perder. Eu fasso judô! Então veio uma ideia, bancar uma de sonsa e oferecer chá.</p>
+                <p>- A senhora disse que funcionou, como foi isso?</p>
+                <p>- Sim incrivelmente ele era mais esperto do que pensei, pois quando fui pegar o chá com sonifero, já havia ligado para a polícia, e quando me virei, escutei um estrondo, então nem acreditei! O homem havia escapado derrubando a porta!</p>
+                <p>Após isso, morrendo de vergonha, você desligou a tv, e olhou o local de sua entrevista, quando percebeu já era tarde demais! Você além de ter se enganado, perdeu a entrevista e cometeu um crime.</p>
+                <p>Bem, agora você sabe que essa vida definitivamente, não é para você!</p>
+                <p>Final 4/4 o mais chato de ler com certeza</P>
+        </div>
+ 
+
+
+
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
